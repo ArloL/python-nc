@@ -6,7 +6,6 @@ name = "pypi"
 [packages]
 paramiko = "*"
 "pysocks3.9" = "*"
-pwncat = "*"
 
 [dev-packages]
 
