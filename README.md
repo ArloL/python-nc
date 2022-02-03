@@ -15,3 +15,5 @@ The goal was to use this as a ProxyCommand for ssh but it does not work:
 $ ssh -o ProxyCommand="python nc.py socks4 ${PROXY_HOST} ${PROXY_PORT} %h %p" user@host 'command'
 Connection to UNKNOWN port 65535 timed out
 ```
+
+The same happens with https://github.com/dzonerzy/Pync
