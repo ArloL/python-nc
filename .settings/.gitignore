@@ -8,4 +8,4 @@
 
 # Add custom ignores after this line to be preserved during automated updates
 
-!/org.eclipse.core.resource.prefs
+!/org.eclipse.core.resources.prefs
