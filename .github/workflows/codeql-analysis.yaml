@@ -9,6 +9,7 @@ on:
     - main
   schedule:
   - cron: '10 12 21 * *'
+permissions: {}
 
 jobs:
   debug:
@@ -56,6 +57,8 @@ jobs:
     steps:
     - name: Checkout repository
       uses: actions/checkout@v4.2.2
+      with:
+        persist-credentials: false
     - name: Initialize CodeQL
       uses: github/codeql-action/init@v3
       with:
