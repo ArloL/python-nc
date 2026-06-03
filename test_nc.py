@@ -99,7 +99,9 @@ def echo_server():
         server.close()
 
 
-def _run_nc(args: list[str], stdin: bytes, timeout: float = 10.0) -> subprocess.CompletedProcess:
+def _run_nc(
+    args: list[str], stdin: bytes, timeout: float = 10.0
+) -> subprocess.CompletedProcess:
     return subprocess.run(
         [sys.executable, str(NC), *args],
         input=stdin,
