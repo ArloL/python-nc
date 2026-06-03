@@ -1,0 +1,9 @@
+[project]
+name = "python-nc"
+version = "0.1.0"
+description = "A test to see if I can implement nc's proxy functionality with python"
+requires-python = ">=3.10"
+dependencies = [
+    "paramiko>=5.0.0",
+    "pysocks>=1.7.1",
+]
