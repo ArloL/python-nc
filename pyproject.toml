@@ -7,3 +7,8 @@ dependencies = [
     "paramiko>=5.0.0",
     "pysocks>=1.7.1",
 ]
+
+[dependency-groups]
+dev = [
+    "ruff>=0.15.15",
+]
